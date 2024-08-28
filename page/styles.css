@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    padding: 0;
+    background-color: white; 
+    align-items: center;
+    
+}
+/* Header styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #000000, #013a72, #145ca3);
+    color: white;
+    padding: 5px ;
+    width: 33%;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 100px;
+    height: 30px;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.header-text span {
+    font-size: 14px;
+}
+
+.logo img {
+    width: 100px;
+    height: 30px;
+}
+
+.bsa {
+    margin-left: auto;
+}
+
+/* Bank statement analyzer section */
+.fin {
+    background-color: #003366;
+    color: white;
+    padding: 3px;
+    margin: 5px auto;
+    text-align: center;
+    width: 30.3%;
+}
+.fin h3 {
+    font-size: 12px;
+    margin: 2px auto;
+}
+
+.table-container {
+    width: 31%;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 5px;
+    text-align: center;
+    padding: 0px;
+    
+}
+
+.table-container td {
+    padding: 1px;
+}
+
+.input-cell-left {
+    background-color: blue;
+    text-align: right;
+    width: 21%;
+}
+
+.input-cell-left input {
+    width: 100%;
+    padding: 2px;
+    color: white;
+    background-color: blue;
+    border: 1px solid blue; 
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.input-cell-right {
+    text-align: left;
+    width: 30%;
+}
+
+.input-cell-right input {
+    width: 100%;
+    padding: 2px;
+    background-color: white;
+    border: 1px solid black; 
+    box-sizing: border-box;
+    font-size: 11px;
+}
+
+.blueline {
+    background-color: #003366;
+    color: white;
+    padding: 2px;
+    margin: 5px auto;
+    text-align: center;
+    width: 30.5%;
+}
+.blueline h3 {
+    font-size: 12px;
+    margin: 2px auto;
+}
+
+.sup {
+    background-color: #003366;
+    color: white;
+    padding: 2px;
+    margin: 5px auto;
+    text-align: center;
+    width: 30.5%;
+}
+.sup h3 {
+    font-size: 12px;
+    margin: 2px auto;
+}
+/* 1st table */
+table {
+    width: 30.70%; 
+    border-collapse: collapse;
+    border-spacing: 7px; 
+    margin: 0 auto;
+}
+
+th, td {
+    border: 1px solid #ddd; 
+}
+
+th {
+    background-color: #000033; 
+    color: rgb(245, 239, 245);
+    padding: 5px;
+    font-size: 11px;
+    text-align: left;
+}
+
+td, input {
+    background-color: #e787eb;
+    color: rgb(241, 235, 241);
+    padding: 2px; 
+    font-size: 11px;
+}
+
+.equal-width {
+    width: 25%; 
+}
+
+input {
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+/* 2nd table css */
+
+table {
+    width: 30.70%;
+    border-collapse: collapse;
+    border-spacing: 7px; 
+    margin: 0 auto;
+}
+
+th, td {
+    border: 1px solid #ddd; 
+}
+
+th {
+    background-color: #000033; 
+    color: rgb(245, 239, 245);
+    padding: 5px;
+    font-size: 11px;
+    text-align: left;
+}
+
+td, input {
+    background-color: #e787eb;
+    color: rgb(241, 235, 241);
+    padding: 2px; 
+    font-size: 11px;
+}
+
+.equal-width {
+    width: 25%; 
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+/* BSA turnover matching */
+
+.turn {
+    background-color: #003366;
+    color: white;
+    padding: 2px;
+    margin: 5px auto;
+    text-align: center;
+    width: 30.5%;
+}
+.turn h3 {
+    font-size: 12px;
+    margin: 2px auto;
+}
+
+/* table 4th */
+
+.custom-table {
+    width: 31.2%; 
+    border-collapse: separate;
+    border-spacing: 5px; 
+    margin: 0 auto;
+}
+
+.custom-table th, .custom-table td {
+    border: 1px solid #ddd; 
+}
+
+.custom-table th {
+    background-color: #000033; 
+    color: rgb(245, 239, 245);
+    padding: 2px;
+    font-size: 11px;
+    text-align: left; 
+}
+
+.custom-table td, .custom-table input {
+    background-color: #e787eb;
+    color: rgb(241, 235, 241);
+    padding: 2px; 
+    font-size: 11px;
+}
+
+.custom-table .equal-width {
+    width: 20%;
+}
+
+.custom-table input {
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+.custom-table .highlight {
+    background-color: blue; 
+    color: white; 
+}
+/* last line */
+
+.last-line {
+    background-color: #003366;
+    color: rgb(65, 4, 134); 
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    width: 30.70%;
+    bottom: 5;
+    height: 30px;
+    transform: translateX(-50%);
+    box-sizing: border-box; 
+    z-index: 1000;
+    padding: 0;
+}
